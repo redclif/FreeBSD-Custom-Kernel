@@ -1,5 +1,3 @@
-## FreeBSD 10.1
-
 include GENERIC
 ident r3d-v3
 cpu   HAMMER
@@ -17,8 +15,8 @@ options ALTQ_HFSC
 options ALTQ_NOPCC
 
 #nodevice	lpt
-nodevice	fdc
-nodevice	wlan
+#nodevice	fdc
+#nodevice	wlan
 #nodevice	mmc
 #nodevice	mmcsd
 #nodevice	sdhci
